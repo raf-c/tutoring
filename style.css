@@ -2,6 +2,9 @@
 
 body {
     font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
   }
   
   h1,
@@ -41,12 +44,21 @@ body {
     display: flex;
     gap: 16px;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
   /* || STORE PAGES */
 
-.product-listing {
-    /* … */
-  }
-  
-  .product-box {
-    /* … */
-  }
+.flexible img, .feedback img, .training img, .quote img {
+   width: 200px;
+}
+
+.header, .intro {
+    color: white;
+    background-color: #1F2937;
+}
