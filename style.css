@@ -12,7 +12,7 @@ body {
   }
   
   ul {
-    /* … */
+    list-style: none;
   }
   
   blockquote {
@@ -31,14 +31,16 @@ body {
 
   /* || SITEWIDE */
 
-.main-nav {
-    /* … */
-  }
-  
-  .logo {
-    /* … */
-  }
+.header, .footer {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 
+.header-links, .footer-links {
+    display: flex;
+    gap: 16px;
+}
   /* || STORE PAGES */
 
 .product-listing {
